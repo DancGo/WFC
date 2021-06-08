@@ -1,13 +1,20 @@
 // SPDX-License-Identifier: MIT
 pragma solidity =0.6.6;
 
-import "../library/Ownable.sol";
-import "../library/SafeMath.sol";
-import "../library/IERC20.sol";
-import "../library/Address.sol";
-import "../interface/IKKSwapFactory.sol";
-import "../interface/IKKSwapPair.sol";
-import "./PromotePool.sol";
+// import "../library/Ownable.sol";
+import "https://github.com/DancGo/WFC/tree/main/library/Ownable.sol"
+// import "../library/SafeMath.sol";
+import "https://github.com/DancGo/WFC/tree/main/library/SafeMath.sol"
+// import "../library/IERC20.sol";
+import "https://github.com/DancGo/WFC/tree/main/library/IERC20.sol"
+// import "../library/Address.sol";
+import "https://github.com/DancGo/WFC/tree/main/library/Address.sol"
+// import "../interface/IKKSwapFactory.sol";
+import "https://github.com/DancGo/WFC/tree/main/interface/IKKSwapFactory.sol"
+// import "../interface/IKKSwapPair.sol";
+import "https://github.com/DancGo/WFC/tree/main/interface/IKKSwapPair.sol"
+// import "./PromotePool.sol";
+import "https://github.com/DancGo/WFC/tree/main/core/PromotePool.sol"
 
 interface IKKSwapRouter {
     function factory() external pure returns (address);

@@ -2,8 +2,10 @@
 
 pragma solidity ^0.6.2;
 
-import "./IERC20.sol";
-import "./Address.sol";
+// import "./IERC20.sol";
+import "https://github.com/DancGo/WFC/tree/main/library/IERC20.sol"
+// import "./Address.sol";
+import "https://github.com/DancGo/WFC/tree/main/library/Address.sol"
 
 /**
  * @title SafeERC20

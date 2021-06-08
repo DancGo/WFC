@@ -1,10 +1,14 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.5.0 <0.8.0;
 
-import "../library/SafeMath.sol";
-import "../library/IERC20.sol";
-import "../interface/IKKSwapFactory.sol";
-import "../interface/IKKSwapPair.sol";
+// import "../library/SafeMath.sol";
+import "https://github.com/DancGo/WFC/tree/main/library/SafeMath.sol"
+// import "../library/IERC20.sol";
+import "https://github.com/DancGo/WFC/tree/main/library/IERC20.sol"
+// import "../interface/IKKSwapFactory.sol";
+import "https://github.com/DancGo/WFC/tree/main/interface/IKKSwapFactory.sol"
+// import "../interface/IKKSwapPair.sol";
+import "https://github.com/DancGo/WFC/tree/main/interface/IKKSwapPair.sol"
 
 interface IHswapV2Callee {
     function hswapV2Call(address sender, uint amount0, uint amount1, bytes calldata data) external;

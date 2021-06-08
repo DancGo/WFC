@@ -1,11 +1,16 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
 
-import "../library/IERC20.sol";
-import "../library/Ownable.sol";
-import "../library/EnumerableSet.sol";
-import "../library/SafeERC20.sol";
-import "../library/SafeMath.sol";
+// import "../library/IERC20.sol";
+import "https://github.com/DancGo/WFC/tree/main/library/IERC20.sol"
+// import "../library/Ownable.sol";
+import "https://github.com/DancGo/WFC/tree/main/library/Ownable.sol"
+// import "../library/EnumerableSet.sol";
+import "https://github.com/DancGo/WFC/tree/main/library/EnumerableSet.sol"
+// import "../library/SafeERC20.sol";
+import "https://github.com/DancGo/WFC/tree/main/library/SafeERC20.sol"
+// import "../library/SafeMath.sol";
+import "https://github.com/DancGo/WFC/tree/main/library/SafeMath.sol"
 
 contract SinglePool is Ownable {
     using SafeMath for uint256;
